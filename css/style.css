@@ -1,0 +1,38 @@
+:root {
+    --texttitlebuttonabcg-color: #FFF;
+    --navlist-color: #C7C7C7;
+    --language-color: #DCDCDC;
+    --rewiesp-color: #D8D8D8;
+    --placeholder-color: #959595;
+    --header-background: #012D63;
+    --footer-background: #021635;
+}
+
+
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+} 
