@@ -178,15 +178,16 @@ border-radius: 10px;
 
 .advantages-list {
     display: flex;
-    gap: 145px;
     padding-right: 50px;
     padding-left: 50px;
-    stroke-width: 5px;
-stroke: var(--button-background);
+    /* stroke-width: 5px;
+stroke: var(--button-background); */
+border: 5px solid var(--button-background);
 }
 
 .advantages-item {
     display: flex;
+    flex-direction: column;
 }
 
 .advantages-title1 {
@@ -196,9 +197,9 @@ font-size: 36px;
 font-weight: 400;
 line-height: 1.33;
 padding-top: 25px;
-padding-bottom: 4px;
+margin-bottom: 4px;
 padding-left: 91px;
-padding-right: 90px;
+margin-right: 90px;
 }
 
 .advantages-title2 {
@@ -207,10 +208,10 @@ padding-right: 90px;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.33;
-    padding-top: 10px;
+    margin-top: 10px;
     padding-bottom: 19px;
-    padding-left: 135px;
-    padding-right: 134px;
+    margin-left: 135px;
+    margin-right: 134px;
 }
 
 .advantages-title3 {
@@ -220,8 +221,8 @@ font-size: 36px;
 font-weight: 400;
 line-height: 1.33;
 padding-top: 22px;
-padding-bottom: 6px;
-padding-left: 95px;
+margin-bottom: 6px;
+margin-left: 95px;
 padding-right: 94px;
 }
 
@@ -243,18 +244,12 @@ padding-top: 25px;
     padding-right: 50px;
 }
 
-.advantages-dec {
-    width: 1px;
-height: 346px;
-background-color: var(--texttitlebuttonabcg-color);
-padding-top: 25px;
-padding-bottom: 25px;
-}
 
 .section-reviews {
-    background-image: url(../img/bcg_reviews.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/bcg_reviews.jpg), url(../img/flo_wers.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-position: center, top;
     padding-top: 25px;
     padding-bottom: 143px;
 }
@@ -380,14 +375,6 @@ margin-top: 47px;
 margin-right: 5px;
 margin-left: 18px;
 }
-
-/* .flowers {
-    width: 340px;
-height: 380px;
-margin-right: 18px;
-margin-top: 139px;
-margin-bottom: 1px;
-} */
 
 .container-box {
     margin-top: 47px;
