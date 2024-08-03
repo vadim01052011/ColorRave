@@ -123,6 +123,7 @@ font-family: "PT Serif";
 font-size: 48px;
 font-weight: 400;
 line-height: 1.33;
+margin-left: 30px;
 }
 
 .main-title1 {
@@ -130,7 +131,7 @@ line-height: 1.33;
 font-family: "Playfair Display";
 font-size: 144px;
 font-weight: 400;
-line-height: 1.33;
+line-height: 1;
 }
 
 .main-title2 {
@@ -138,7 +139,7 @@ line-height: 1.33;
 font-family: "Playfair Display";
 font-size: 72px;
 font-weight: 400;
-line-height: 1.33;
+line-height: 1;
 }
 
 .main-text {
@@ -178,6 +179,7 @@ border-radius: 10px;
 
 .advantages-list {
     display: flex;
+    justify-content: center;
     padding-right: 50px;
     padding-left: 50px;
     /* stroke-width: 5px;
@@ -185,9 +187,31 @@ stroke: var(--button-background); */
 border: 5px solid var(--button-background);
 }
 
-.advantages-item {
+.advantages-item1 {
     display: flex;
     flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.advantages-item2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 19px;
+    padding-right: 95px;
+    padding-left: 95px;
+}
+
+.advantages-item3 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 22px;
+    padding-bottom: 25px;
 }
 
 .advantages-title1 {
@@ -196,10 +220,8 @@ font-family: "Playfair Display";
 font-size: 36px;
 font-weight: 400;
 line-height: 1.33;
-padding-top: 25px;
 margin-bottom: 4px;
-padding-left: 91px;
-margin-right: 90px;
+/* margin-right: 90px; */
 }
 
 .advantages-title2 {
@@ -209,9 +231,8 @@ margin-right: 90px;
     font-weight: 400;
     line-height: 1.33;
     margin-top: 10px;
-    padding-bottom: 19px;
-    margin-left: 135px;
-    margin-right: 134px;
+    /* margin-left: 135px;
+    margin-right: 134px; */
 }
 
 .advantages-title3 {
@@ -220,28 +241,22 @@ font-family: "Playfair Display";
 font-size: 36px;
 font-weight: 400;
 line-height: 1.33;
-padding-top: 22px;
 margin-bottom: 6px;
-margin-left: 95px;
-padding-right: 94px;
+/* margin-left: 95px; */
+
 }
 
 .advantages-img1 {
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    
 }
 
 .advantages-img2 {
-padding-left: 95px;
-padding-right: 95px;
-padding-top: 25px;
+ height: 240px;
+ width: 240px;
 }
 
 .advantages-img3 {
-    padding-bottom: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    
 }
 
 
@@ -249,9 +264,9 @@ padding-top: 25px;
     background-image: url(../img/bcg_reviews.jpg), url(../img/flo_wers.png);
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
-    background-position: center, top;
+    background-position: center, center;
     padding-top: 25px;
-    padding-bottom: 143px;
+    padding-bottom: 114px;
 }
 
 .reviews-title {
@@ -297,10 +312,10 @@ font-size: 24px;
 font-weight: 400;
 line-height: 1.16;
 width: 228px;
-padding-top: 49px;
+/* padding-top: 49px;
 margin-bottom: 8px;
 padding-left: 13px;
-padding-right: 14px;
+padding-right: 14px; */
 }
 
 .reviews_list-title2 {
@@ -309,10 +324,10 @@ padding-right: 14px;
     font-weight: 400;
     line-height: 1.16;
     width: 228px;
-    padding-top: 49px;
+    /* padding-top: 49px;
     margin-bottom: 8px;
     padding-left: 18px;
-    padding-right: 9px;
+    padding-right: 9px; */
 }
 
 .reviews_list-title3 {
@@ -321,10 +336,10 @@ padding-right: 14px;
 font-weight: 400;
 line-height: 1.16;
 width: 228px;
-padding-top: 49px;
+/* padding-top: 49px;
 margin-bottom: 8px;
 padding-left: 18px;
-padding-right: 9px;
+padding-right: 9px; */
 }
 
 .reviews_list-text1-1 {
