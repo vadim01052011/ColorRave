@@ -83,11 +83,10 @@ font-weight: 300;
 line-height: 1.16;
 }
 
-.nav-link:hover {
-color: var(--texttitlebuttonabcg-color);   
-font-family: "Roboto";
+.active {
+    color: var(--texttitlebuttonabcg-color);
 font-size: 24px;
-font-weight: 300;
+font-weight: 400;
 line-height: 1.16;
 }
 
@@ -194,6 +193,7 @@ box-shadow: 10px 14px 48px 0px rgba(0,0,0,0.65);
     background-size: cover;
     padding-top: 130px;
     padding-bottom: 130px;
+    border-bottom: 2px solid var(--texttitlebuttonabcg-color);
     
 }
 
@@ -307,6 +307,7 @@ width: 151px;
     background-size: auto, cover;
     padding-top: 25px;
     padding-bottom: 114px;
+    border-bottom: 2px solid var(--texttitlebuttonabcg-color);
 }
 
 .reviews-title {
@@ -529,6 +530,7 @@ padding-left: 48px;
 padding-right: 49px;
 background-color: var(--button-background);
 border-radius: 16px;
+border: none;
 }
 
 .order-button:hover {
@@ -552,16 +554,12 @@ padding-top: 45px;
 padding-bottom: 50px;
 }
 
-.footer-box {
-    display: flex;
-}
-
 .text-questions1 {
     color: var(--texttitlebuttonabcg-color);
 font-size: 24px;
 font-weight: 400;
 line-height: 1.16;
-margin-right: 591px;
+/* margin-right: 591px; */
 width: 184px;
 }
 
@@ -570,7 +568,7 @@ width: 184px;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.16;
-margin-right: 373px;
+/* margin-right: 373px; */
 }
 
 .text-questions3 {
@@ -578,7 +576,11 @@ margin-right: 373px;
 font-size: 24px;
 font-weight: 400;
 line-height: 1.16;
-margin-right: 493px;
+/* margin-right: 493px; */
+}
+
+.list-email {
+    text-align: end;
 }
 
 .link-email1 {
@@ -605,6 +607,11 @@ font-weight: 400;
 line-height: 1.16;
 text-decoration-line: underline;
 margin-top: 10px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-dec {
@@ -634,6 +641,10 @@ line-height: 1.16;
 margin-top: 7px;
 }
 
+.item-logo:last-child {
+    margin-left: 30px;
+}
+
 .text-logo {
     color: var(--texttitlebuttonabcg-color);
 font-family: "PT Serif";
@@ -642,4 +653,5 @@ font-weight: 400;
 line-height: 1.33;
 width: 178px;
 height: 86px;
+
 }
